@@ -35,6 +35,6 @@ Content-Type: text/html
 Sustainability Operations Coordinator
 "
 
-Then from there, you can handle the response accordingly to your individual project.
+Then from there, you can handle the response according to your individual project.
 
 
