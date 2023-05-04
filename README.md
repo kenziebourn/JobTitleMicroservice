@@ -6,23 +6,30 @@ This project defines an HTTP endpoint and once the microservice receives the HTT
 One key feature includes creating an array that stores previously generated job titles so that the microservice does not provide repeated job titles.
 
 
-1. Requesting Data
+## 1. Requesting Data
 In order to request data, call the microservice at the endpoint '/RandomJobTitle' using the fetch api 
 
 Ex:
 // Send request to microservice
+
 fetch(`http://localhost:{PORT}/RandomJobTitle`)
+
 <your additional code handling the response>
 
 
-2. Receiving Data
+## 2. Receiving Data
+
 Once the microservice receives the HTTP request after calling it using the fetch api, it will generate a random job
+
 title and return it in the response. 
 
 Here's an example of what the HTTP response might
+
 look like: 
+
 "
 HTTP/1.1 200 OK
+
 Content-Type: text/html
 
 Sustainability Operations Coordinator
