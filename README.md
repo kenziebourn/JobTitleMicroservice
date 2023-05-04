@@ -17,7 +17,7 @@ fetch(`http://localhost:{PORT}/RandomJobTitle`)
 <your additional code handling the response>
 
 
-## 2. Receiving Data
+### 2. Receiving Data
 
 Once the microservice receives the HTTP request after calling it using the fetch api, it will generate a random job
 
