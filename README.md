@@ -1,6 +1,6 @@
 # JobTitleMicroservice
 
-# # JobTitleMicroservice is a microservice that generates a random job title using OpenAI's API. It uses the HTTP requests as the communication pipe. 
+JobTitleMicroservice is a microservice that generates a random job title using OpenAI's API. It uses the HTTP requests as the communication pipe. 
 
 This project defines an HTTP endpoint and once the microservice receives the HTTP request, it will generate a random jobtitle and return it in the response (text/html format). 
 One key feature includes creating an array that stores previously generated job titles so that the microservice does not provide repeated job titles.
